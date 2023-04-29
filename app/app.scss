@@ -19,3 +19,40 @@
   font-family: 'Font Awesome 5 Free', 'fa-regular-400';
   font-weight: 400;
 }
+
+.calendar-main {
+  padding-top: 10%;
+}
+
+.month-year-info {
+  //background-color: rgba(127, 255, 212, 0.538);
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10%;
+}
+
+.arrows {
+  //background-color: rgba(0, 255, 255, 0.556);
+  width: 30%;
+  padding-right: 20%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+}
+.today-date-info {
+  font-size: 18px;
+  padding-left: 10%;
+  padding-top: 20%;
+  color: #9ccaed;
+}
+
+.calendar-today-box {
+  background-color: #1f1f1f;
+  color: azure;
+  font-size: 24px;
+}
+
+.calendar {
+  padding-left: 10%;
+  padding-top: 20%;
+}
