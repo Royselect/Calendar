@@ -55,4 +55,23 @@
 .calendar {
   padding-left: 10%;
   padding-top: 20%;
+  padding-right: 10%;
+}
+
+.calendar-main {
+  padding-left: 10%;
+  padding-top: 20%;
+  padding-right: 10%;
+  //background-color: #9ccaed7d;
+}
+
+.days {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.dayNumber {
+  text-align: center;
 }
